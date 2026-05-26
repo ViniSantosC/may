@@ -16,10 +16,9 @@
     <header>
       <h3><span>M</span>ayara</h3>
       <div>
-        <a href="">Sobre</a><a href="">Memorias</a> <a href="">Galeria</a
-        ><a href="">Carta</a>
+        <a href="#sobre">Sobre</a><a href="#Memorias">Memorias</a><a href="#carta">Carta</a>
       </div>
-      <button>Mensagem</button>
+      <button onclick="window.location.href='#mesagem'">Mensagem</button>
     </header>
     <main>
       <section class="parte1">
@@ -33,12 +32,12 @@
             Uma pessoa que transforma cuidado em amor e <br />momentos simples
             em lembranças eternas.
           </p>
-          <button class="btn1">Ver nossa historia</button>
-          <button class="btn2">Ler a carta</button>
+          <button class="btn1" onclick="window.location.href='#sobre'">Ver nossa historia</button>
+          <button class="btn2" onclick="window.location.href='#carta'">Ler a carta</button>
         </div>
         <img src="img/1.jpg" alt="" />
       </section>
-      <section class="parte2">
+      <section class="parte2" id="sobre">
         <h5>QUEM É A MAYARA</h5>
         <h2>
           Cuidado, presença e um amor enorme <br />
@@ -67,28 +66,62 @@
           Onde ela passa, fica mais bonito. Onde ela ama, fica mais quente.
         </h3>
       </section>
-      <section class="parte3">
-        <h5>GALERIA</h5>
+      <section class="parte3" id="Memorias">
+        <h5>MEMORIAS</h5>
         <h2>Pequenos retratos, grandes lembranças</h2>
         <div class="flex">
-            <img src="img/2.jpg" alt="">
-            <img src="img/3.jpg" alt="">
-            
-             <img src="img/11.jpg" alt="">
-            <img src="img/12.jpg" alt="">
+          <img src="img/2.jpg" alt="" />
+          <img src="img/3.jpg" alt="" />
+
+          <img src="img/11.jpg" alt="" />
+          <img src="img/12.jpg" alt="" />
         </div>
         <div class="flex2">
-             <img src="img/5.jpg" alt="">
-            <img src="img/6.jpg" alt="">
-            <img src="img/7.jpg" alt="">
-          <img src="img/4.jpg" alt="">
+          <img src="img/5.jpg" alt="" />
+          <img src="img/6.jpg" alt="" />
+          <img src="img/7.jpg" alt="" />
+          <img src="img/4.jpg" alt="" />
         </div>
       </section>
-      <section class="parte4">
+      <section class="parte4" id="carta">
+        <div class="conteiner">
+          <h5>UMA CARTA PARA VOCÊ</h5>
+          <h1>Tia Mayara,</h1>
+          <p class="p2">
+            Eu não sei muito bem como começar uma carta dessas. Acho que nenhuma
+            palavra cabe exatamente no tamanho do que eu sinto por você — mas
+            vou tentar.
+          </p>
+          <p class="p2">
+            Obrigado pelo cuidado. Pelos detalhes que só você lembra. Por estar
+            perto mesmo quando a vida exigia distância. Por nunca precisar de
+            motivo pra demonstrar carinho.
+          </p>
+          <p class="p2">
+            Obrigado pelos conselhos — os pedidos e os que vieram sem pedir. Por
+            me ouvir, por me corrigir com leveza, por torcer por mim do jeito
+            silencioso que só quem ama de verdade torce.
+          </p>
+          <p class="p2">
+            Você é uma das pessoas mais importantes da minha vida. E hoje, no
+            seu dia, eu queria que você lembrasse disso a cada vez que abrisse
+            esta página: você faz diferença.
+          </p>
 
+          <p class="p1">Com amor,Vinicius</p>
+        </div>
+      </section>
+      <section class="parte5" id="mesagem">
+        <h1>
+          “Algumas pessoas fazem a vida <br> ficar mais leve só por existirem.”
+        </h1>
+        <h2>Obrigado por tudo, Mayara.</h2>
+        <h3>Feito com carinho</h3>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Um presente em forma de site · 2026</p>
+    </footer>
   </body>
   <script src="script.js"></script>
 </html>

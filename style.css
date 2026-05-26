@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 header {
   display: flex;
   padding: 1rem;
@@ -172,4 +175,81 @@ margin: 0.5rem auto;
     height: 200px;
     border-radius: 1rem;
     transition: all 0.3s ease-in-out;
+}
+
+.parte4 {
+   height: 100vh;
+   text-align: center;
+  padding: 1rem;
+  background-color: #FDF7ED;
+}
+.parte4 h5 {
+  margin: 0.5rem auto;
+  font-family: "Inter", sans-serif;
+  color: #c48136;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.parte4 h1 {
+   font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #524037;
+}
+.p2 {
+   font-family: "Playfair Display", serif;
+    color: #524037;
+    line-height: 1.6;
+   margin: 1rem auto;
+   font-style: italic;
+    letter-spacing: 1px;
+}
+.conteiner {
+  width: 50%;
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  display: block;
+  margin: auto;
+  padding: 2rem;
+border-radius: 1rem;
+}
+.p1 {
+   font-family: "Inter", sans-serif;
+   text-align: end;
+   margin: 1rem auto;
+}
+
+.parte5 {
+
+   text-align: center;
+  padding: 1rem;
+  background-color: #FDF7ED;
+}
+.parte5 h1 {
+   font-family: "Playfair Display", serif;
+    color: #524037;
+    font-size: 4rem;
+     margin: 0.5rem auto;
+    font-weight: 400;
+    font-style: italic;
+}
+.parte5 h2 {
+  font-family: "Playfair Display", serif;
+  color: #c48136;
+   margin: 0.5rem auto;
+  font-weight: 200;
+}
+.parte5 h3 {
+   margin: 0.5rem auto;
+  font-family: "Inter", sans-serif;
+  color: #524037;
+  font-weight: 300;
+}
+footer {
+  text-align: center;
+   background-color: #FDF7ED;
+   padding:1rem;
+   color: #696264;
+     font-family: "Poppins", sans-serif;
 }
